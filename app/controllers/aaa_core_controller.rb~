@@ -1,0 +1,17 @@
+class AaaCoreController < ApplicationController
+  def index
+	@title = "Index";
+  end
+
+  def events
+		@title = "Events";
+  end
+
+  def shop
+		@title = "Shop";
+  end
+
+  def discussions
+		@title = "Discussions";
+  end
+end
